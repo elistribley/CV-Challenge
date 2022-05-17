@@ -1,7 +1,8 @@
 body{
     color: midnightblue;
     background-color: cornsilk;
-
+    background-image: image-set();
+    text-align: center;
 }
 h1 {
     color: midnightblue;
@@ -18,6 +19,10 @@ img {
    
 }
 
+div {
+    text-align: center;
+    color: red;
+}
 
 
 .dinos {
