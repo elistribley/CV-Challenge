@@ -1,0 +1,28 @@
+body {
+    text-align: center;
+    float: center;
+    background-color: black;
+    color: black;
+}
+
+.left{
+    text-align: left;
+    border: 2px; color: black;
+    margin: 5px;
+    float: left !important;
+    text-decoration-color: yellow;
+}
+.center{
+    text-align: center;
+    float: center !important;
+    text-decoration-color: yellow;
+}
+
+.right{
+    text-align: right;
+    float: right !important;
+    text-decoration-color: yellow;
+}
+header{
+    text-align: center;
+}
