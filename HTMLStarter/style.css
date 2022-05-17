@@ -8,18 +8,20 @@ h1 {
     margin-left: 15;
 }
 
+img {
+    height:30vw;
+    width:30vw;
+}
 #company-logo {
     height:20vw !important;
     width:20vw !important;
    
 }
 
-img {
-    height:30vw;
-    width:30vw;
-}
+
 
 .dinos {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     border: 2px solid black;
     height: 30px;
     width: 20%;
@@ -28,6 +30,7 @@ img {
     padding: 20px;
     border-radius: 20px;
     transform: rotate(20deg);
+    text-transform: capitalize;
 
 }
 
@@ -41,4 +44,6 @@ img {
     border-radius: 20px;
     transform: rotate(-20deg);
     transform-origin: right;
+    text-align: right;
+    font-style: italic;
 }
