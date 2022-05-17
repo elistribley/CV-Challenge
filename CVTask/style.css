@@ -1,0 +1,57 @@
+body{
+    color:black;
+    background-color:orangered;  
+}
+
+
+.headers{
+    float: center;
+    text-align: center;
+}
+
+.left{
+    text-align: center;
+    float: left !important;
+   
+}
+.center{
+    text-align: center;
+    float: center !important;
+   
+}
+
+.right{
+    
+    float: right !important;
+   
+}
+
+#FirstColumn {
+    float: left;
+    border: 5px;
+    margin: 5px;
+    height: 20px;
+    width: 20%;
+    border-width: 2px;
+    padding: 20px;
+}
+#Skills{
+    text-align: center;
+}
+#WorkEx {
+    text-align: center;
+}
+#Educ{
+    text-align: center;
+
+}
+
+#PersS{
+    text-align: center;
+    float: center;
+}
+PersS > mb-3{
+    width: 10%;
+    float: center;
+    text-align: center;
+}
