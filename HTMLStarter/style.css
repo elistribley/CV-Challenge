@@ -1,0 +1,40 @@
+body{
+    color: midnightblue;
+    background-color: cornsilk;
+
+}
+
+#company-logo {
+    height:20vw !important;
+    width:20vw !important;
+   
+}
+
+img {
+    height:30vw;
+    width:30vw;
+}
+
+.dinos {
+    border: 2px solid black;
+    height: 30px;
+    width: 20%;
+    text-align: center;
+    margin-top: 10%;
+    padding: 20px;
+    border-radius: 20px;
+    transform: rotate(20deg);
+
+}
+
+.dinos2 {
+    border: 5px solid black;
+    height: 30px;
+    width: 20%;
+    text-align: center;
+    margin-top: 10%;
+    padding: 15px;
+    border-radius: 20px;
+    transform: rotate(-20deg);
+    transform-origin: right;
+}
