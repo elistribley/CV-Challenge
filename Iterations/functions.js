@@ -34,7 +34,7 @@ let powerUp = (n1, n2) => Math.pow(n1, n2);
     console.log(powerUp(2, 5));
 
 // HIGHER FUNCTIONS
-
+// ARRAY
 let grades = [
     {name: 'Bill', grade: 3, sex: 'M'},
     {name: 'Jane', grade: 6, sex: 'F'},
@@ -47,27 +47,45 @@ let grades = [
     {name: 'Brock', grade: 17, sex: 'M'},
     {name: 'Oak', grade: 20, sex: 'M'}
 ]
-
+// ARROW FUNCTION
 let isBoy = student => student.sex === "M";
 let isGirl = student => student.sex === "F";
 let getBoy = grades => (grades.filter(isBoy));
 let getGirl = grades => (grades.filter(isGirl));
-
+// MAP TOO
 let average = grades => (grades.reduce((acc,curr) => (acc + curr.grade), 0) / grades.length);
-let maxGrade = grades => (Math.max(...grades.map(student => student.grade)));
-let minGrade = grades => (Math.min(...grades.map(student => student.grade)));
+let maxGrade = grades => (Math.max(grades.map(student => student.grade)));
+let minGrade = grades => (Math.min(grades.map(student => student.grade)));
+// DECLARING VARIBLES
 let classRoomAverage = average(grades);
 let boysAverage = average(getBoy(grades));
 let girlsAverage = average(getGirl(grades));
-
 let highestGrade = maxGrade(grades);
 let lowestGrade = minGrade(grades);
 let highestBoyGrade = maxGrade(getBoy(grades));
 let lowestBoyGrade = minGrade(getBoy(grades));
 let highestGirlGrade = maxGrade(getGirl(grades));
 let lowestGirlGrade = minGrade(getGirl(grades));
-
+// CALLING FUNCTIONS
 console.log(grades)
 console.log(classRoomAverage)
 console.log(lowestGrade)
 console.log(highestGrade)
+
+
+const myStudentArray = ['Bill', 'Jane', 'Benjamin', 'Ash', 'Ketchum', 'Misty', 'Brock', 'Oak'];
+const [a,,, b,, c, ...theRest] = myStudentArray;
+console.log(a)
+console.log(b)
+console.log(c)
+console.log(theRest)
+console.log(myStudentArray)
+
+
+// for (let i = grades; i > grades.length; i++){
+//     for (let b = grades; b <=10; b++){
+//         console.log(i)
+//     }
+    
+// }
+// console.log(grades)
