@@ -1,3 +1,14 @@
+let user = {
+    name1: "Bob",
+    years: 25,
+    hobby: "Fishing" 
+};
+let {name1, years, hobby, isAdmin = false} = user;
+console.log(name1);
+console.log(years);
+console.log(hobby);
+console.log(isAdmin);
+
 // ARROW FUNCTIONS
 let powerUp = (n1, n2) => Math.pow(n1, n2);
     console.log(powerUp(2, 5));
@@ -59,3 +70,4 @@ console.log(myStudentArray)
     
 // }
 // console.log(grades)
+
