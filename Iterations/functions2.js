@@ -1,3 +1,5 @@
+'use strict';
+
 let user = {
     name1: "Bob",
     years: 25,
